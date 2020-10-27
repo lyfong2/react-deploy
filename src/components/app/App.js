@@ -1,9 +1,9 @@
 import './App.css';
-import profileImage from './img/girl.jpg'
-import Nav from './Nav';
-import About from './About';
-import Shop from './Shop';
-import ItemDetail from './ItemDetail';
+// import profileImage from '../../img/girl.jpg'
+import Nav from '../nav/Nav';
+import About from '../about/About';
+import Shop from '../shop/Shop';
+import ItemDetail from '../itemDetail/ItemDetail';
 
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -20,7 +20,7 @@ function App() {
           <Route path="/shop" exact component={Shop} />
           <Route path="/shop/:id" component={ItemDetail}/>
         </Switch>
-        <img src={profileImage} alt="profile-image" />
+        {/* <img src={profileImage} alt="profile-image" /> */}
       </div>
     </Router>
   );
