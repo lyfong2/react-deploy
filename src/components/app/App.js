@@ -5,6 +5,8 @@ import About from '../about/About';
 import Shop from '../shop/Shop';
 import ItemDetail from '../itemDetail/ItemDetail';
 
+import Button from '../button/button';
+
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -20,7 +22,7 @@ function App() {
           <Route path="/shop" exact component={Shop} />
           <Route path="/shop/:id" component={ItemDetail}/>
         </Switch>
-        {/* <img src={profileImage} alt="profile-image" /> */}
+        <Button label="click me please"></Button>
       </div>
     </Router>
   );
