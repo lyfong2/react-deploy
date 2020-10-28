@@ -4,11 +4,8 @@ import Nav from '../nav/Nav';
 import About from '../about/About';
 import Shop from '../shop/Shop';
 import ItemDetail from '../itemDetail/ItemDetail';
-
 import Button from '../button/button';
-
-
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { HashRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 function App() {
